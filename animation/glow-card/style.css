@@ -97,8 +97,8 @@ main {
    --spotlight-size: calc(var(--size, 150) * 1px);
    --hue: calc(var(--base) + (var(--xp, 0) * var(--spread, 0)));
    background-image: radial-gradient(
-      200px 200px at 1215px
-         235px,
+      200px 200px at 
+         center,
       hsl(
          var(--hue, 210) calc(var(--saturation, 100) * 1%)
             calc(var(--lightness, 70) * 1%) / var(--bg-spot-opacity, 0.1)
