@@ -37,3 +37,4 @@ function reverseString(string $text): string
 
 
 var_dump(reverseString(""));
+
